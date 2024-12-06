@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://docker.io/cnfluentinc/cp-kafka-connect:6.2.1 docker://registry.cn-beijing.aliyuncs.com/cuijx/cp-kafka-connect:6.2.1
+        skopeo copy docker://docker.io/confluentinc/cp-kafka-connect:6.2.1 docker://registry.cn-beijing.aliyuncs.com/cuijx/cp-kafka-connect:6.2.1
